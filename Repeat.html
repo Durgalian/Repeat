@@ -8,32 +8,47 @@
     
     <title>This is my page</title>
     <link rel="stylesheet" href="Repeat.css">
+
+<!-- <style>
+body{backround: #ddd}
+header{border: 1 px solid grey}
+
+</style>  -->
+
 </head>
 
 <body class="Psina">
     <link rel="stylesheet" href="Repeat.css">
-    
+
+    <div class="container">
 How are you?
 
 <p>
     Psina
 </p>
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT4pXLXQABdeKhg3EvbXgUa2kwXlC7WZjPI74t75NpB22zcK75ETv025QzkK80bwinISk&usqp=CAU" width="300px" alt="">
 
+<div class="info">
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT4pXLXQABdeKhg3EvbXgUa2kwXlC7WZjPI74t75NpB22zcK75ETv025QzkK80bwinISk&usqp=CAU" class="avatar" alt="">
+</div>
 <br>
+<br>
+<div class="back5">
+<div class="info-text">
 <h1 class="PsinaH1">Сборище псин:</h1>
 <a href="https://Psina.com" target="_blank">Psina prime site</a>
 
 <br>
 <!-- <a href="Repeat.html" target="_blank">Repeat</a> -->
-
-<ul type="square">
+</div>
+<ul type="square" class="list">
     <li>Psina 1</li>
     <li>Psina 2</li>
 </ul>
 
-<ol type="A">
+<ol type="A" class="link">
     <li>Psina 3</li>
     <li>Psina 4
 
@@ -45,7 +60,10 @@ How are you?
     <li>Далеко непоследняя Psina</li>
 </ol>
 
-<table border="9" width="440">
+
+<br>
+<div class="back6">
+<table border="9" width="440" class="table">
     <thead>
         <tr>
             <th>Имя псины </th>
@@ -60,9 +78,24 @@ How are you?
         <td>44</td>
         <td>Psina</td>
     </tr>
+
 </tbody>
 </table>
+</div>
 <br>
+<div class="hobbie">
+    <H2>Psina's hobby</H2>
+    <ol>
+        <li>
+            Being psina
+        </li>
+    </ol>
+</div>
+
+<br>
+<div class="back2">
+
+
 <h2>Forms for all of Psina's</h2>
    
 
@@ -109,7 +142,10 @@ How are you?
     <label for="color">Psina's Niga</label>
     <input type="color" id="color" >
 </div>
+</div>
 <br>
+<div class="back3">
+
 <div>
     <label for="message">Write message for Psina</label>
     <br>
@@ -146,14 +182,14 @@ How are you?
 
 
 <!-- <input type="submit" value=" Kick Psina"> Button более современное -->
-<button type="submit">Kick Psina</button>
+<button type="submit" class="btn">Kick Psina</button>
 
 </form>
 
 
 
 <p style="border: 2px solid blue">Psina is sitting in the backyard.</p>
-
+</div>
 
 <div id="psinas GPS" class="psinasGPS">
     <h2>Psina"s links</h2>
@@ -173,7 +209,7 @@ How are you?
     <!-- В один class можем добавлять сразу два и к ним будет применяться стилистика таже -->
     <h3>Block 1</h3>
     <p>
-        How is yuor day fucking psina?
+        How is your day fucking psina?
     </p>
 </div>
 <hr>
@@ -186,7 +222,8 @@ How are you?
     <li>Telepsina</li>
 </ul>
 </div>
-
+</div>
+</div>
 <style>
     .psinasGPS{ 
         border-bottom: 2px solid rgb(118, 40, 40);
@@ -217,8 +254,215 @@ div# и tab
 Можно сразу добавить название, например
 div#psina  и tab
 Если мы хотим список с классном, то также
-ul. и tab  и тд
+ul. и tab 
+ul.list и tab и тд
 А можно просто . или # и tab  и сразу получать div с классом или id -->
 
+
+<!-- Div и header одно и тоже. Header такой же блочный элемент которому можно задать id class -->
+<!-- Для навигации тэг nav. Это все вместо того, чтобы всегда указывать div надо, чтобы роботы которые индексируют Сайт
+лучше понимали а что и где -->
+<!-- Еще есть тэг article который как div и section в который article можно завернуть
+Чтобы показать, что в этой сексии у нас статьи -->
+<!-- Еще есть aside, который тоже как div но для бокового меню -->
+
+
+<header style="border: 1px solid grey;" id="header">
+<h3>
+    This site where live psinas
+</h3>
+
+</header >
+
+
+<div class="card html">
+<h2>HTML</h2>
+<p>Psina where do you live? What do you do in your psina's live?</p>
+
+</div>
+
+<div class="card css">
+    <h2>CSS</h2>
+    <p>Psina where do you live? What do you do in your psina's live?</p>
+    
+    </div>
+
+
+
+<div class="card">
+    <h2>Psina's colors</h2>
+    <h3 class="color-1">Color 1</h3>
+    <h3 class="color-2">Color 2</h3>
+    <h3 class="color-3">Color 3</h3>
+    <h3 class="color-4">Color 4</h3>
+    <h3 class="color-5">Color 5</h3>
+</div>
+
+
+<div class="class">
+    <h2>Psina borders</h2>
+
+    <p class="border-1">
+        Psina what are you doing now?
+    </p>
+    <p class="border-2">
+        Psina what are you doing now?
+    </p>
+    <p class="border-3">
+        Psina what are you doing now?
+    </p>
+
+</div>
+
+
+
+<!-- Box model margin и padding -->
+
+ <!-- <div class="box">
+    <h2>Box model</h2>
+    <p>Psina is going to walk</p>
+
+    <div class="box">
+        <h2>Box model</h2>
+        <p>Psina is going to walk</p>
+
+ *{
+         margin: 0
+         padding:0} 
+         Паддинг отступ внутри самой коробочки, а margin это самый внешний отступ от краев экрана
+ Если мы хотим зафиксировать какое значение ширины то в секси head пишем width 500px например
+ А если мы хотим чтобы отступ был адаптивный в зависимости от экрана
+ там же указываем margin: auto
+ Чтобы сайт был адаптивный используем свойство max-width, а не width
+ 
+ Marginом и paddingом можно управлять точечно
+ Делать отступы вверху внизу и по бокам разными
+ Например, если мы в одной строчке укажим
+
+ Padding: 15 px 40 px - Это значит что отступ вверху и внизу будет по 15, а по бокам по 40
+ То есть первое значение отвечает за вверх и низ, а второе за лево и право
+ А если указать все 4 свойства, то они будут идти по очереди top right (left) bottom left(right)
+ Padding: 15px 35 px 45 px 66 px По часовой стрелке
+ А можем и отдельно 
+ padding-top
+ padding-right
+ И тд
+
+ Чтобы выстроять элементы в одну линию в сексии head можно использовать свойство float
+ Например float: left
+ Если это свойство работает неверно и что то не получается не вмещается
+ Можно использовать свойство со значением
+ box-sizing: border-box
+ А вообще вместо float лучше использовать display
+         -->
+
+<ul class="list">
+    <li>Lorem ipsum dolor sit amet.</li>
+    <li>Corrupti aspernatur suscipit veritatis cum?</li>
+    <li>Dolorem minima veniam fugit hic.</li>
+    <li>Alias soluta placeat perferendis quaerat.</li>
+    <li>Itaque quisquam ipsam quae perferendis.</li>
+</ul>
+
+<table class="table">
+   <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+   </tr>
+   <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+   </tr>
+   <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+   </tr>
+   <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+   </tr>
+   <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+   </tr>
+   <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+   </tr>        
+</table>
+
+
+ <nav class="navbar">
+   <ul>
+    <li><a href="#">Item 1</a></li>  <!--Быстро создал ul>(li>a{Item $})*5 -->
+    <li><a href="#">Item 2</a></li>
+    <li><a href="#">Item 3</a></li>
+    <li><a href="#">Item 4</a></li>
+    <li><a href="#">Item 5</a></li>
+   </ul>
+
+ </nav> <!--Создал быстро с помощью emmet написал сначала nav а потом через точку класс nav -->
+
+
+ <div class="card">
+    <h2>display</h2>
+
+    <ul class="inline">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+ </div>
+
+<div class="box">
+    Lorem, ipsum dolor sit amet consectetur adipisicing.
+</div>
+
+<div class="box">
+    Lorem, ipsum dolor sit amet consectetur adipisicing.
+</div>
+
+<div class="box">
+    Lorem, ipsum dolor sit amet consectetur adipisicing.
+</div>
+
+<img src="https://kinsta.com/wp-content/uploads/2021/03/HTML-5-Badge-Logo.png" alt="" class="img">
+
+
+<div class="card">
+    <h2>Positions</h2>
+
+    <div class="playground">
+        <div class="pos-box"></div>
+    </div>
+</div>
+
+<div class="media">
+    <div class="media2">
+        Адаптивная верстка
+    </div>
+</div>
+
 </body >
+</div>
+</div>
 </html>
